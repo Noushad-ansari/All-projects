@@ -18,36 +18,54 @@ export default class LiveConsultation extends Component {
     slides = [
         {
             key: uuidv4(),
-            content: <img src="https://picsum.photos/800/501/?random" alt="1" />
+            content: 
+                <iframe allowFullScreen="allowfullscreen" className="iframe" width="420" height="270" src="https://www.youtube.com/embed/6Af6b_wyiwI">
+                </iframe>
+           
         },
         {
             key: uuidv4(),
-            content: <img src="https://picsum.photos/800/502/?random" alt="2" />
+            content: 
+            <iframe className="iframe" width="420" height="270" src="https://www.youtube.com/embed/AL08YZCYShc">
+            </iframe>
+        
         },
         {
             key: uuidv4(),
-            content: <img src="https://picsum.photos/800/503/?random" alt="3" />
+            content: 
+            <iframe className="iframe" width="420" height="270" src="https://www.youtube.com/embed/eI4an8aSsgw">
+            </iframe>
+        
         },
         {
             key: uuidv4(),
-            content: <img src="https://picsum.photos/800/500/?random" alt="4" />
+            content: 
+            <iframe className="iframe" width="420" height="270" src="https://www.youtube.com/embed/eIho2S0ZahI">
+            </iframe>
+        
         },
         {
             key: uuidv4(),
-            content: <img src="https://picsum.photos/800/504/?random" alt="5" />
+            content: 
+            <iframe className="iframe" width="420" height="270" src="https://www.youtube.com/embed/ZVO8Wt_PCgE">
+            </iframe>
+        
         },
         {
             key: uuidv4(),
-            content: <img src="https://picsum.photos/800/500/?random" alt="6" />
+            content: 
+            <iframe className="iframe" width="420" height="270" src="https://www.youtube.com/embed/TQMbvJNRpLE">
+            </iframe>
+        
         },
         {
             key: uuidv4(),
-            content: <img src="https://picsum.photos/800/500/?random" alt="7" />
+            content: <div  style={{ height: "300px", width: "420px"}}>
+            <iframe className="iframe" height="270" width="400"  src="https://www.youtube.com/embed/-ki9-oaPwHs">
+            </iframe>
+        </div>
         },
-        {
-            key: uuidv4(),
-            content: <img src="https://picsum.photos/805/500/?random" alt="8" />
-        }
+        
     ].map((slide, index) => {
         return { ...slide, onClick: () => this.setState({ goToSlide: index }) };
     });
@@ -77,14 +95,14 @@ export default class LiveConsultation extends Component {
                 </section>
                 <div className="pagination">
                     <div className="pageNoBox">
-                       <div className="pageNo">5</div>
-                       <div className="pageNo">6</div>
-                       <div className="pageNo">7</div>
-                       <div className="pageNo">8</div>
-                       <div className="pageNo">9</div>
-                        </div>
+                        <div className="pageNo">5</div>
+                        <div className="pageNo">6</div>
+                        <div className="pageNo">7</div>
+                        <div className="pageNo">8</div>
+                        <div className="pageNo">9</div>
+                    </div>
                     <div className="rest">
-                        </div>
+                    </div>
                 </div>
             </div>
         )
