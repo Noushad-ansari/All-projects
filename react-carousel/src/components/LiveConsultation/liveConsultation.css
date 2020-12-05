@@ -55,35 +55,7 @@ img {
   color: var(--text-color);
 }
 
-.pagination{
-  border: 1px solid var(--text-color );
-  height: 80px;
-  border-radius: 20px;
-  margin: 70px;
-  display: flex;
-  justify-content: space-around;
-}
 
-.pageNoBox{
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-  /* background-color: green; */
-}
-.pageNo{
-  color: var(--text-color);
-  font-size: 1.5rem;
-}
-.pageNoBox :nth-child(1){
-  padding: .7em 1.5em;
-  border-bottom: 5px solid var(--text-color);
-  border-radius: 5px;
-}
-.rest{
-  width: 40%;
-
-}
 
 .iframe{
   border-radius: 20px;

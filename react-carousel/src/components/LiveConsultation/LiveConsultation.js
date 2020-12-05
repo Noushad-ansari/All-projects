@@ -20,46 +20,45 @@ export default class LiveConsultation extends Component {
         {
             key: uuidv4(),
             content:
-                <iframe allowFullScreen="allowfullscreen" className="iframe" width="420" height="270" src="https://www.youtube.com/embed/6Af6b_wyiwI">
+                <iframe title="motivation1" allowFullScreen="allowfullscreen" className="iframe" width="420" height="270" src="https://www.youtube.com/embed/6Af6b_wyiwI">
                 </iframe>
 
         },
         {
             key: uuidv4(),
             content:
-                <iframe className="iframe" width="420" height="270" src="https://www.youtube.com/embed/AL08YZCYShc">
+                <iframe title="motivation2" allowFullScreen="allowfullscreen" className="iframe" width="420" height="270" src="https://www.youtube.com/embed/AL08YZCYShc">
                 </iframe>
         },
         {
             key: uuidv4(),
             content:
-                <iframe className="iframe" width="420" height="270" src="https://www.youtube.com/embed/eI4an8aSsgw">
+                <iframe title="motivation3"  allowFullScreen="allowfullscreen" className="iframe" width="420" height="270" src="https://www.youtube.com/embed/eI4an8aSsgw">
                 </iframe>
         },
         {
             key: uuidv4(),
             content:
-                <iframe className="iframe" width="420" height="270" src="https://www.youtube.com/embed/eIho2S0ZahI">
+                <iframe title="motivation4" allowFullScreen="allowfullscreen" className="iframe" width="420" height="270" src="https://www.youtube.com/embed/eIho2S0ZahI">
                 </iframe>
         },
         {
             key: uuidv4(),
             content:
-                <iframe className="iframe" width="420" height="270" src="https://www.youtube.com/embed/ZVO8Wt_PCgE">
+                <iframe title="motivation5" allowFullScreen="allowfullscreen" className="iframe" width="420" height="270" src="https://www.youtube.com/embed/ZVO8Wt_PCgE">
                 </iframe>
         },
         {
             key: uuidv4(),
             content:
-                <iframe className="iframe" width="420" height="270" src="https://www.youtube.com/embed/TQMbvJNRpLE">
+                <iframe title="motivation6" allowFullScreen="allowfullscreen" className="iframe" width="420" height="270" src="https://www.youtube.com/embed/TQMbvJNRpLE">
                 </iframe>
         },
         {
             key: uuidv4(),
-            content: <div style={{ height: "300px", width: "420px" }}>
-                <iframe className="iframe" height="270" width="400" src="https://www.youtube.com/embed/-ki9-oaPwHs">
+            content: 
+                <iframe title="motivation7" allowFullScreen="allowfullscreen" className="iframe" height="270" width="400" src="https://www.youtube.com/embed/-ki9-oaPwHs">
                 </iframe>
-            </div>
         },
 
     ].map((slide, index) => {
@@ -89,17 +88,7 @@ export default class LiveConsultation extends Component {
                     <h2>Live Classes</h2>
                     <h6>Select a number</h6>
                 </section>
-                {/* <div className="pagination">
-                    <div className="pageNoBox">
-                        <div className="pageNo">5</div>
-                        <div className="pageNo">6</div>
-                        <div className="pageNo">7</div>
-                        <div className="pageNo">8</div>
-                        <div className="pageNo">9</div>
-                    </div>
-                    <div className="rest">
-                    </div>
-                </div> */}
+              
                 <Pagination/>
             </div>
         )

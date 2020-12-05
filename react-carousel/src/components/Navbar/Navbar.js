@@ -9,14 +9,14 @@ export default class Navbar extends Component {
         return (
             <div>
                 <nav className="navItems">
-                    <ul className="menuItems mt-3">
+                    <ul className="menuItems">
                         {Navitems.map((item, index) => (
                             <li key={index} >
                                 <NavLink className="navlinks" exact activeclassname={item.cName} to={item.url}>{item.title}</NavLink>
                             </li>
                         ))}
                         <li>
-                            <NavLink exact exact activeclassname="active" to="/login" className="login">Login</NavLink>
+                            <NavLink  exact activeclassname="active" to="/login" className="login">Login</NavLink>
                         </li>
                     </ul>
                 </nav>

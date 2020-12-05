@@ -1,5 +1,4 @@
 import React from 'react'
-import "bootstrap/dist/css/bootstrap.min.css"
 
 
 const Posts = ({ posts, loading }) => {
@@ -9,7 +8,7 @@ const Posts = ({ posts, loading }) => {
     }
     return (
         <div className="container bg-light ">
-            <table className="table table-hover table-sm table-striped table-bordered  mt-5 ">
+            <table className="table table-hover table-sm table-striped table-bordered  mt-2 ">
                 <thead>
                     <tr className="bg-dark text-white">
                         <th>Id</th>
