@@ -9,7 +9,7 @@ export default class Navbar extends Component {
         return (
             <div>
                 <nav className="navItems">
-                    <ul className="menuItems">
+                    <ul className="menuItems mt-3">
                         {Navitems.map((item, index) => (
                             <li key={index} >
                                 <NavLink className="navlinks" exact activeclassname={item.cName} to={item.url}>{item.title}</NavLink>

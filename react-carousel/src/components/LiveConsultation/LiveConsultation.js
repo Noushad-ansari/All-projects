@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Pagination from "../Pagination/Pagination"
-import Posts from  "../Posts/Posts"
 
 import Carousel from 'react-spring-3d-carousel';
 import uuidv4 from "uuid";

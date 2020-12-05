@@ -7,6 +7,11 @@ body {
   font-family: sans-serif;
 }
 
+:root {
+  --font-family: sans-serif;
+  --text-color: #707070;
+}
+
 .navItems {
   display: flex;
   justify-content: flex-end;
@@ -30,8 +35,10 @@ body {
   font-size: 1.1rem;
 }
 .navlinks:hover{
-  border-bottom:1.5px solid rgb(231,104,69);
-  border-radius: 5px;
+  border-bottom:1.5px solid rgb(231,104,69) !important;
+  border-radius: 5px !important;
+  text-decoration: none;
+  color: var(--text-color);
 }
 
 .login {
