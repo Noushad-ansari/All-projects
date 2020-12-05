@@ -33,7 +33,7 @@ export default class LiveConsultation extends Component {
         {
             key: uuidv4(),
             content:
-                <iframe title="motivation3"  allowFullScreen="allowfullscreen" className="iframe" width="420" height="270" src="https://www.youtube.com/embed/eI4an8aSsgw">
+                <iframe title="motivation3" allowFullScreen="allowfullscreen" className="iframe" width="420" height="270" src="https://www.youtube.com/embed/eI4an8aSsgw">
                 </iframe>
         },
         {
@@ -56,7 +56,7 @@ export default class LiveConsultation extends Component {
         },
         {
             key: uuidv4(),
-            content: 
+            content:
                 <iframe title="motivation7" allowFullScreen="allowfullscreen" className="iframe" height="270" width="400" src="https://www.youtube.com/embed/-ki9-oaPwHs">
                 </iframe>
         },
@@ -88,8 +88,8 @@ export default class LiveConsultation extends Component {
                     <h2>Live Classes</h2>
                     <h6>Select a number</h6>
                 </section>
-              
-                <Pagination/>
+
+                <Pagination />
             </div>
         )
     }

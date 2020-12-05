@@ -16,11 +16,11 @@ export default class Navbar extends Component {
                             </li>
                         ))}
                         <li>
-                            <NavLink  exact activeclassname="active" to="/login" className="login">Login</NavLink>
+                            <NavLink exact activeclassname="active" to="/login" className="login">Login</NavLink>
                         </li>
                     </ul>
                 </nav>
-              
+
             </div>
         )
     }
